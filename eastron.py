@@ -154,7 +154,7 @@ models = {
 # this seems to be the same location on a SDM230, but is undocumented... no idea how 2 be detected but the 630 is 3 phase and the 230 is 1 phase.
 # Best to also define which registers are being accessed, that confused me for a while.
 # may need Reg_u16(0xfc02)
-probe.add_handler(probe.ModelRegister(Reg_u16(0x001c, access='holding'), models,
+probe.add_handler(probe.ModelRegister(Reg_u16(0xfc02, access='holding'), models,
                                       methods=['rtu'],
                                       units=[1],
                                       rates=[9600]))
