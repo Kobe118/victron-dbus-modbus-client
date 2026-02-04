@@ -34,6 +34,7 @@ import dse
 import ev_charger
 import smappee
 import victron_em
+import eastron
 
 import logging
 log = logging.getLogger()
