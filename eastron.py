@@ -145,6 +145,10 @@ models = {
         'model':    'SDM630Modbus',                                                                                  
         'handler':  Eastron_SDM630,                                                                                  
     },
+    122:  {                                                                                                             
+        'model':    'SDM630Modbus',                                                                                  
+        'handler':  Eastron_SDM630,                                                                                  
+    },
     30976:  {                                                                                                             
         'model':    'SDM630Modbus',                                                                                  
         'handler':  Eastron_SDM630,                                                                                  
